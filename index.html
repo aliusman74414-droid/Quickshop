@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ef663e">
+  <meta name="description" content="Shop stylish ladies handbags, shoulder bags, crossbody bags and clutches at QuickShop UAE.">
+  <title>QuickShop | Stylish Ladies Bags</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="QuickShop home"><span class="brand-mark">Q</span><span>Quick<span class="accent">Shop</span><small>TRENDY BAGS · HAPPY YOU</small></span></a>
+    <nav class="nav"><a class="active" href="#home">Home</a><a href="#shop">Ladies Bags</a><a href="#why-us">Why QuickShop</a><a href="#contact">Contact</a></nav>
+    <div class="top-actions"><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Search bags..." aria-label="Search bags"></label><button class="cart-button" id="cartToggle" aria-label="Open cart">🛍 <b id="cartCount">0</b></button><a class="whatsapp-top" href="#shop" id="headerWhatsApp">☏ <span>Order on WhatsApp</span></a></div>
+  </header>
+  <main>
+    <section class="hero" id="home"><div class="hero-copy"><p class="eyebrow">THE NEW LADIES COLLECTION</p><h1>Carry your style.<br><span>Own every moment.</span></h1><p class="hero-description">Beautiful bags for everyday plans, special evenings and everything in between.</p><a class="primary-button" href="#shop">Explore the collection <span>→</span></a><p class="hero-note">✦ Stylish picks · Lovely prices · Easy ordering</p></div><div class="hero-art" aria-label="Stylish handbag illustration"><div class="halo"></div><div class="hero-spark">✦</div><div class="hero-bag"><div class="hero-handle"></div><span>Q</span></div><div class="hero-caption">YOUR STYLE,<br>YOUR STORY ♡</div></div></section>
+    <section class="benefits" id="why-us"><article><span class="benefit-icon">↗</span><div><strong>Easy Ordering</strong><small>Order directly on WhatsApp</small></div></article><article><span class="benefit-icon">♡</span><div><strong>Lovely Styles</strong><small>Everyday to occasion bags</small></div></article><article><span class="benefit-icon">✓</span><div><strong>Personal Support</strong><small>Ask us before you order</small></div></article></section>
+    <section class="shop-section" id="shop"><div class="section-heading"><div><p class="eyebrow">FIND YOUR FAVOURITE</p><h2>Shop the collection</h2><p class="section-subtitle">A little bag magic for every outfit.</p></div><span class="product-count" id="productCount">6 styles</span></div>
+      <div class="toolbar"><div class="category-pills" id="categoryPills"><button class="pill active" data-category="All">All bags</button><button class="pill" data-category="Tote">Tote</button><button class="pill" data-category="Shoulder">Shoulder</button><button class="pill" data-category="Crossbody">Crossbody</button><button class="pill" data-category="Clutch">Clutch</button></div><select id="sortSelect" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="az">Name: A to Z</option></select></div>
+      <div class="product-grid" id="productGrid"></div><p class="empty-state" id="emptyState" hidden>No bags found. Try another search.</p>
+    </section>
+    <section class="promo"><div><p class="eyebrow">A LITTLE SOMETHING FOR YOU</p><h2>Find the bag that feels like <em>you.</em></h2><p>Not sure which style to choose? Message us and we’ll help you pick.</p><a class="dark-button" id="helpWhatsApp" href="#contact">Chat with us <span>↗</span></a></div><div class="promo-art"><span>♡</span><div class="promo-mini-bag"><i></i></div></div></section>
+    <section class="contact-strip" id="contact"><div><span class="contact-icon">☏</span><div><h3>Ready to order?</h3><p>Send us your favourite bag on WhatsApp to get started.</p></div></div><a class="primary-button" id="contactWhatsApp" href="#shop">Chat on WhatsApp <span>→</span></a></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">Q</span><span>Quick<span class="accent">Shop</span><small>TRENDY BAGS · HAPPY YOU</small></span></a><p>Find your everyday favourite.</p><small>© <span id="year"></span> QuickShop. Product photos are illustrative; ask us to confirm availability and details.</small></footer>
+  <button class="floating-whatsapp" id="floatingWhatsApp" aria-label="Order on WhatsApp">☏</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="scrim" id="scrim"></div><aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true"><div class="drawer-heading"><div><p class="eyebrow">YOUR PICKS</p><h2>Your bag</h2></div><button class="close-button" id="cartClose" aria-label="Close cart">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-footer"><div class="total-row"><span>Estimated total</span><strong id="cartTotal">AED 0</strong></div><button class="primary-button checkout-button" id="checkoutButton">Order on WhatsApp <span>→</span></button><small>Final availability, delivery and payment details will be confirmed with you on WhatsApp.</small></div></aside>
+  <script src="script.js"></script>
+</body></html>
