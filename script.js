@@ -3,7 +3,7 @@
 const WHATSAPP_NUMBER = '971569247414';
 const products = [
   {id:'bag-1',name:'Classic Everyday Tote',price:79,category:'Tote',description:'A roomy everyday style for work, shopping and weekends.',tag:'BESTSELLER',image:'assets/bag-1.jpg'},
-  {id:'bag-2',name:'Elegant Shoulder Bag',price:89,category:'Shoulder',description:'A polished bag to complement your everyday outfits.',tag:'POPULAR',image:'assets/bag-2.jpg'},
+  {id:'bag-2',name:'Elegant Shoulder Bag',price:89,category:'Shoulder',description:'A polished bag to complement your everyday outfits.',tag:'POPULAR', image:'assets/bag-2.jpg'},
   {id:'bag-3',name:'Mini Crossbody Bag',price:59,category:'Crossbody',description:'Compact, lightweight and easy to carry on the go.',tag:'EVERYDAY',image:'assets/bag-3.jpg'},
   {id:'bag-4',name:'Soft Neutral Handbag',price:99,category:'Shoulder',description:'A timeless neutral style for casual and dressy looks.',tag:'NEW STYLE',image:'assets/bag-4.jpg'},
   {id:'bag-5',name:'Evening Clutch',price:49,category:'Clutch',description:'A simple finishing touch for dinners and special events.',tag:'OCCASION',image:'assets/bag-5.jpg'},
